@@ -26,14 +26,13 @@ Merma/
 ├── pbix/                                   → Archivo PBIX del tablero
 ├── docs/
 │   ├── README.md                           → Descripción general del repositorio
-│   ├── Medidas.md                          → Medidas DAX documentadas
+│   ├── MedidasCalculadas.md                → Medidas DAX documentadas
 │   ├── Columnas_Calculadas.md              → DAX documentadas
-│   ├── Tablas_Catalogo.md                   → DAX documentadas
+│   ├── Tablas_Dax.md                       → DAX documentadas
 │   ├── Instructivo Dashboard OEE.docx      → Guía de uso del dashboard
 ├── img/
 │   ├── preview_dashboard.png               → Captura del dashboard
 │   └── modelo_datos.png                    → Relación entre tablas
-└── LICENSE                                 → MIT (u otra que se defina)
 ```
 
 ---
@@ -47,12 +46,8 @@ Merma/
 ## 📎 Cómo utilizarlo
 
 1. Clona este repositorio.
-2. Abre el archivo `pbix/Dashboard_OEE_Coflex.pbix` con Power BI Desktop.
+2. Abre el archivo `pbix/Merma.pbix` con Power BI Desktop.
 3. Conecta tu fuente de datos o consulta en SQL Server.
 4. Revisa la documentación en `/docs` para entender cada fórmula y estructura.
 
 ---
-
-## 📄 Licencia
-
-MIT – Libre uso con atribución.
